@@ -9,14 +9,14 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class TitanGodsTest
+public class ExampleGraphTest
         extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public TitanGodsTest(String testName) {
+    public ExampleGraphTest(String testName) {
         super(testName);
     }
 
@@ -24,14 +24,14 @@ public class TitanGodsTest
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(TitanGodsTest.class);
+        return new TestSuite(ExampleGraphTest.class);
     }
 
     /**
      * Rigourous Test :-)
      */
     public void testApp() {
-        TitanGraph godGraph = TitanGods.create("./target/TitanTest");
+        TitanGraph godGraph = ExampleGraph.create("./target/TitanTest");
         Iterable<Vertex> skyVertices = godGraph.getVertices("name", "sky");
         assertTrue("skyVertices were not found", skyVertices.iterator().hasNext());
     }

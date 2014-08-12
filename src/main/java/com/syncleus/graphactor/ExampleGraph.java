@@ -23,7 +23,7 @@ import static com.thinkaurelius.titan.graphdb.configuration.GraphDatabaseConfigu
  *
  * @author Marko A. Rodriguez (http://markorodriguez.com)
  */
-public class TitanGods {
+public class ExampleGraph {
 
     public static final String INDEX_NAME = "search";
 
@@ -43,7 +43,7 @@ public class TitanGods {
 
         TitanGraph graph = TitanFactory.open(config);
         if( !graph.getVertices().iterator().hasNext() )
-            TitanGods.load(graph);
+            ExampleGraph.load(graph);
         return graph;
     }
 

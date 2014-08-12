@@ -50,5 +50,10 @@
             <artifactId>titan-es</artifactId>
             <version>0.4.4</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>dann-core</artifactId>
+            <version>2.0x-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
