@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.syncleus</groupId>
-    <artifactId>graphactor</artifactId>
+    <artifactId>titann</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>graphactor</name>
+    <name>titann</name>
     <url>http://maven.apache.org</url>
 
     <properties>
